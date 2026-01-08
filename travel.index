@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discover Morocco</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f5ec;
+}
+
+header {
+  background: linear-gradient(135deg, #c1272d, #006233);
+  color: white;
+  padding: 50px 0;
+  text-align:center;
+}
+
+.destinations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  width: 260px;
+  margin: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin: 12px 0 5px;
+  color: #c1272d;
+}
+
+.card p {
+  color: #555;
+  padding: 0 12px 18px;
+}
+
+footer {
+  background:linear-gradient(18deg, #c1972d, #000093) ;
+  color: white;
+  padding: 12px 0;
+}
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>Discover Morocco</h1>
+    <p>A journey through culture, colors, and history</p>
+  </header>
+
+  <section class="destinations">
+    <div class="card">
+      <img src="https://marrakechbestof.com/wp-content/uploads/2022/08/08B55E43-BC48-4A02-9A24-2854D864E0AE.jpeg" alt="Marrakech">
+      <h2 style="text-align:center">Marrakech</h2>
+      <p>Marrakech, known as the Red City and the City of Palms ,is also called the Land of Joy for its renowned hospitality and the warmth of its people. This has made it a global capital of joy and welcome, a place where moments of happiness are cultivated and shared between visitors and residents in an atmosphere of warmth and celebration.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://moroccodreamsafari.com/wp-content/uploads/2023/07/day-trip-from-Fes-to-Chefchaouen.png" alt="Chefchaouen">
+      <h2 style="text-align:center">Chefchaouen</h2>
+      <p>Chefchaouen, the <q>Blue City</q> in northern Morocco, is a charming mountain town nestled in the Rif Mountains, renowned for its blue buildings and sky that creates a surreal and dreamy atmosphere.It includes winding alleys in the old town (Medina), a historic citadel, museums, and markets, and is considered an ideal starting point for hiking in the surrounding mountains, combining architectural beauty, cultural heritage, and stunning natural scenery. 
+.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://moroccodreamsafari.com/wp-content/uploads/2025/01/Peut-on-visiter-Fes-en-toute-securite-915x609.jpg" alt="Fes">
+      <h2 style="text-align:center">Fes</h2>
+      <p>Fez, a city steeped in history and culture, stands as Morocco's spiritual and intellectual heart. Its labyrinthine medina, Fes el-Bali, a UNESCO World Heritage site, is one of the world's largest and best-preserved medieval cities, a vibrant tapestry of narrow alleys, bustling souks, and ancient architectural marvels like the Al Quaraouiyine university, the oldest continually operating educational institution in the world.</p>
+    </div>
+    <div class="card">
+      <img src="https://www.revigorate.com/images/Explore-vibrant-Casablanca.jpg" alt="Casablanca">
+      <h2 style="text-align:center">Casablanca</h2>
+      <p>Casablanca,the<q>White city</q>it is the largest ville of Morocco and its economic capital, a dynamic center on the Atlantic Ocean, a modern occidental and a rich Marocaine culture, with a huge port, with the Mosque Hassan II emblematic, a unique Art Deco architecture and an animated nocturne view, different from the affairs, of tourism and history. .</p>
+    </div>
+  </section>
+
+  <footer>
+    <p style="text-align:center">Created by Assmaa.</p>
+  </footer>
+
+</body>
+</html>
